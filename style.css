@@ -16,11 +16,7 @@ body{
    
 }
 header{
-    background-color: whitesmoke;
-    height: 2.1em;
-    padding-top: 18px;
-    padding-right: 25px;
-    margin-right: 125px;
+    
     float: right;
 }
 myName{
@@ -54,6 +50,7 @@ myName{
     width: 960px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 80px;
 }
 img{
     height: 175px;
@@ -229,12 +226,4 @@ text-align: center;
 h4{
     font-family: 'Varela Round', sans-serif;
     font-weight: lighter;
-}
-
-div.topbanner{
-    background-color: aquamarine;
-}
-
-.head-text {
-    bacakground-color: blue;
 }
