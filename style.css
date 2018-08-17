@@ -9,6 +9,11 @@ body {
     margin-right: auto;
 }
 
+.navbar-brand{
+    font-size: 2em;
+    color: rgb(73,148,118);
+}
+
 .menu {
     float: right;
     color: whitesmoke;
