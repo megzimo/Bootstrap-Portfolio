@@ -108,8 +108,13 @@ nav a:hover {
     padding-bottom: 5px;
 }
 
-hangmanLink { 
-    text-decoration : none; color : #000; 
+.link{ 
+    text-decoration: none; 
+    color : #000; 
+}
+a.link:visited{
+ color:inherit;
+ text-decoration: none;
 }
    
 /*Form*/
@@ -176,7 +181,7 @@ textarea{
 .card{
     /* border: 2px solid black; */
     padding-top: 8px;
-padding-bottom: 8px;
+    padding-bottom: 8px;
 }
 /* banner across card */
 .card-title{
@@ -236,4 +241,6 @@ text-align: center;
 h4{
     font-family: 'Varela Round', sans-serif;
     font-weight: lighter;
+    text-decoration: none;
+    color: inherit;
 }
