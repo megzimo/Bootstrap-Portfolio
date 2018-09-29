@@ -1,4 +1,4 @@
-/*original image, resized*/
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700|Krub|Poiret+One');
 
 body {
     background-image: url(./assets/images/greyfloral.png);
@@ -10,7 +10,9 @@ body {
 }
 
 .navbar-brand{
-    font-size: 2em;
+    font-size: 35px;
+    font-family: 'Poiret One', cursive;
+    text-shadow: 1.5px 1.5px rgba(9, 128, 128, .5);
     color: rgb(73,148,118);
 }
 
@@ -74,7 +76,8 @@ p {
 h1,
 h2,
 h3 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Amatic SC', cursive;
+    color: rgb(9, 128, 128);
 }
 
 h1 {
@@ -120,10 +123,21 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: flex-start;
-    align-items: flex-start;
+    justify-content: space-around;
+    /* align-content: space-around;
+    align-items: space-around; */
     width: 600px;
+}
+
+.card-header{
+
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2.5em;
+    margin-bottom: 4em;
 }
 
 /* spacing between cards */
@@ -195,6 +209,12 @@ nav a:hover {
     margin: 15px;
 }
 
+#appName{
+    font-size: 14px;
+    font-family: 'Krub', sans-serif;
+    color: rgb(15, 97, 97);
+}
+
 /* rounds edge of border */
 
 .card:hover {
@@ -208,6 +228,7 @@ h4 {
 }
 
 .footer {
+    font-size: 8px;
     background-color: rgba(96, 128, 128, .7);
     border-top: 2px solid #454545;
     width: 100%;
@@ -259,4 +280,10 @@ header {
 
 .navbar-collapse{
     justify-content: flex-end;
+}
+
+.nav-item{
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    text-shadow: .23px .25px rgb(11, 32, 32);
 }
